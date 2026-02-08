@@ -91,7 +91,7 @@ img {
 
 .btn-primary {
     background-color: var(--primary-color);
-    color: #000;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -191,27 +191,12 @@ img {
     /* Push to the right */
 }
 
-
 .nav-link {
-    font-family: var(--font-body);
-    /* Modern Sans-Serif */
-    font-size: 0.85rem;
-    /* Refined size */
+    font-size: 0.95rem;
     position: relative;
-    font-weight: 600;
-    /* Slightly bolder for legibility */
-    text-transform: uppercase;
-    /* Sophisticated Look */
-    letter-spacing: 1.5px;
-    /* Creates elegance */
-    color: var(--text-muted);
-    /* Start slightly muted */
-    transition: var(--transition);
-}
-
-.nav-link:hover {
-    color: var(--primary-color);
-    /* Orange highlight on hover */
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
 }
 
 .nav-link::after {
@@ -220,17 +205,13 @@ img {
     width: 0;
     height: 2px;
     bottom: -5px;
-    left: 50%;
-    /* Start from center */
-    transform: translateX(-50%);
-    /* Center anchor */
+    left: 0;
     background-color: var(--primary-color);
     transition: var(--transition);
 }
 
 .nav-link:hover::after {
     width: 100%;
-    /* Expand outwards */
 }
 
 .mobile-menu-btn {
