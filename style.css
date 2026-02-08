@@ -171,7 +171,7 @@ img {
 }
 
 .brand-logo {
-    height: 150px;
+    height: 80px;
     width: auto;
     /* Stronger shadow for visibility as requested */
     filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
@@ -191,12 +191,27 @@ img {
     /* Push to the right */
 }
 
+
 .nav-link {
-    font-size: 0.95rem;
+    font-family: var(--font-body);
+    /* Modern Sans-Serif */
+    font-size: 0.85rem;
+    /* Refined size */
     position: relative;
-    font-weight: 400;
-    text-transform: none;
-    letter-spacing: normal;
+    font-weight: 600;
+    /* Slightly bolder for legibility */
+    text-transform: uppercase;
+    /* Sophisticated Look */
+    letter-spacing: 1.5px;
+    /* Creates elegance */
+    color: var(--text-muted);
+    /* Start slightly muted */
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+    /* Orange highlight on hover */
 }
 
 .nav-link::after {
@@ -205,13 +220,17 @@ img {
     width: 0;
     height: 2px;
     bottom: -5px;
-    left: 0;
+    left: 50%;
+    /* Start from center */
+    transform: translateX(-50%);
+    /* Center anchor */
     background-color: var(--primary-color);
     transition: var(--transition);
 }
 
 .nav-link:hover::after {
     width: 100%;
+    /* Expand outwards */
 }
 
 .mobile-menu-btn {
