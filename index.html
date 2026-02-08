@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Peixaria Mancha - Restaurante de frutos do mar com cozinha autoral e ambiente sofisticado. Reserve sua mesa ou peça pelo WhatsApp.">
+    <meta property="og:title" content="Peixaria Mancha | Sabores do Mar com Requinte">
+    <meta property="og:description"
+        content="Experimente o melhor da culinária de frutos do mar em um ambiente acolhedor e sofisticado.">
+    <meta property="og:image" content="assets/hero.jpg">
+    <meta property="og:type" content="website">
+    <title>Peixaria Mancha | Restaurante de Frutos do Mar</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Peixaria Mancha",
+      "image": "assets/hero.jpg",
+      "@id": "https://peixariamancha.com.br",
+      "url": "https://peixariamancha.com.br",
+      "telephone": "+5591982696928",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Beira Mar, 1234",
+        "addressLocality": "Guarapari",
+        "addressRegion": "ES",
+        "postalCode": "29200-000",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -20.0,
+        "longitude": -40.0
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "11:00",
+        "closes": "23:00"
+      },
+      "servesCuisine": "Seafood",
+      "priceRange": "$$$"
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-top-border"></div>
+
+
+
+        <div class="container nav">
+            <a href="#" class="logo-link">
+                <img src="assets/logo.png" alt="Peixaria Mancha Logo" class="brand-logo">
+            </a>
+
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#hero" class="nav-link">Início</a>
+                <a href="#destaques" class="nav-link">Sobre</a>
+                <a href="#cardapio" class="nav-link">Cardápio</a>
+                <a href="#galeria" class="nav-link">Galeria</a>
+                <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                <a href="#localizacao" class="nav-link">Contato</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-carousel" id="hero-carousel">
+            <!-- Imagens do Carrossel (Substitua os caminhos pelas suas fotos) -->
+            <div class="hero-slide active" style="background-image: url('assets/hero1.jpg')"></div>
+            <div class="hero-slide" style="background-image: url('assets/hero2.jpeg')"></div>
+            <!-- Exemplo: assets/foto2.jpg -->
+            <div class="hero-slide" style="background-image: url('assets/hero3.jpeg')"></div>
+            <!-- Exemplo: assets/foto3.jpg -->
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content scroll-reveal">
+            <h1>Sabores do Mar com Requinte</h1>
+            <p>Uma experiência gastronômica única, unindo frescor, tradição e sofisticação em cada prato.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5591989379978" target="_blank" class="btn btn-primary"><i
+                        class="fab fa-whatsapp"></i> DELIVERY</a>
+                <a href="https://wa.me/5591982696928" target="_blank" class="btn btn-outline"><i
+                        class="fab fa-whatsapp"></i> RESTAURANTE</a>
+            </div>
+        </div>
+
+        <!-- Wavy Bottom Divider -->
+        <div class="hero-wave-container">
+            <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f4f7f6" fill-opacity="1"
+                    d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,261.3C960,256,1056,224,1152,197.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="section" id="destaques">
+        <div class="container">
+            <div class="highlights-grid">
+                <div class="highlight-card scroll-reveal">
+                    <i class="fas fa-utensils highlight-icon"></i>
+                    <h3>Cozinha Autoral</h3>
+                    <p>Pratos exclusivos criados por nossos chefs, valorizando a essência dos frutos do mar.</p>
+                </div>
+                <div class="highlight-card scroll-reveal">
+                    <i class="fas fa-fish highlight-icon"></i>
+                    <h3>Ingredientes Frescos</h3>
+                    <p>Pescados selecionados diariamente para garantir o máximo de sabor e qualidade.</p>
+                </div>
+                <div class="highlight-card scroll-reveal">
+                    <i class="fas fa-glass-cheers highlight-icon"></i>
+                    <h3>Ambiente Acolhedor</h3>
+                    <p>Um espaço pensado para o seu conforto, perfeito para jantares especiais e celebrações.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cardápio -->
+    <section class="section" id="cardapio">
+        <div class="container">
+            <h2 class="section-title text-center" style="text-align: center; margin-bottom: 40px;">Nosso Cardápio</h2>
+
+            <div class="menu-tabs" id="menu-tabs">
+                <!-- Tabs will be injected by JS -->
+            </div>
+
+            <div class="menu-grid" id="menu-grid">
+                <!-- Menu items will be injected by JS -->
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#" class="btn btn-outline whatsapp-link">Ver Cardápio Completo no WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="section" id="galeria">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">Galeria</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item scroll-reveal"><img src="assets/tambaqui.jpg" alt="Prato 1" loading="lazy">
+                </div>
+                <div class="gallery-item scroll-reveal"><img src="assets/img2.jpg" alt="Ambiente" loading="lazy"></div>
+                <div class="gallery-item scroll-reveal"><img src="assets/img3.jpg" alt="Prato 2" loading="lazy"></div>
+                <div class="gallery-item scroll-reveal"><img src="assets/img4.jpg" alt="Detalhe" loading="lazy"></div>
+                <div class="gallery-item scroll-reveal"><img src="assets/img5.jpg" alt="Bebida" loading="lazy"></div>
+                <div class="gallery-item scroll-reveal"><img src="assets/img6.jpg" alt="Sobremesa" loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Depoimentos -->
+    <section class="section" id="depoimentos">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">O que dizem nossos clientes</h2>
+            <div class="testimonials-container scroll-reveal" id="testimonials-container">
+                <div class="testimonial-track" id="testimonial-track">
+                    <!-- Testimonials injected by JS -->
+                </div>
+                <div class="testimonial-nav" id="testimonial-nav">
+                    <!-- Dots injected by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização e Horários -->
+    <section class="section" id="localizacao">
+        <div class="container">
+            <div class="location-content">
+                <div class="map-container scroll-reveal" id="map-container">
+                    <!-- Iframe injected by JS -->
+                </div>
+                <div class="address-info scroll-reveal">
+                    <h2>Venha nos Visitar</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> <span id="address-text">Médici II, Rua Outeiro, 200 -
+                            Marambaia</span></p>
+                    <p><i class="fas fa-clock"></i> <span id="hours-text">Seg-Dom 11:00 - 15:30 || Delivery Seg-Dom 7:00
+                            - 14:00</span></p>
+                    <p><i class="fas fa-phone"></i> <span id="phone-text">Telefone carregando...</span></p>
+                    <br>
+                    <a href="#" target="_blank" class="btn btn-outline" id="maps-btn">Como Chegar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservas -->
+    <section class="section" id="reservas">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">Faça sua Reserva</h2>
+            <form class="reservation-form scroll-reveal" id="reservation-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Nome Completo</label>
+                        <input type="text" id="name" class="form-input" required placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="phone">Telefone (WhatsApp)</label>
+                        <input type="tel" id="phone" class="form-input" required placeholder="(XX) XXXXX-XXXX">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="date">Data</label>
+                        <input type="date" id="date" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="time">Horário</label>
+                        <select id="time" class="form-select" required>
+                            <option value="">Selecione...</option>
+                            <option value="19:00">19:00</option>
+                            <option value="19:30">19:30</option>
+                            <option value="20:00">20:00</option>
+                            <option value="20:30">20:30</option>
+                            <option value="21:00">21:00</option>
+                            <option value="21:30">21:30</option>
+                            <option value="22:00">22:00</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="guests">Número de Pessoas</label>
+                    <select id="guests" class="form-select" required>
+                        <option value="2">2 Pessoas</option>
+                        <option value="3">3 Pessoas</option>
+                        <option value="4">4 Pessoas</option>
+                        <option value="5">5 Pessoas</option>
+                        <option value="6">6 Pessoas</option>
+                        <option value="+6">Mais de 6 (Consultar)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="obs">Observações (Opcional)</label>
+                    <textarea id="obs" class="form-textarea" rows="3"
+                        placeholder="Aniversário, alergias, mesa específica..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Solicitar Reserva via
+                    WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>PEIXARIA MANCHA</h4>
+                    <p>Referência em frutos do mar e gastronomia de alta qualidade.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#cardapio">Cardápio</a></li>
+                        <li><a href="#reservas">Reservas</a></li>
+                        <li><a href="#localizacao">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Siga-nos</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon instagram-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon facebook-link"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; <span id="year"></span> Peixaria Mancha. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <a href="#" class="whatsapp-float whatsapp-link" aria-label="Chamar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <div class="mobile-sticky-cta">
+        <a href="#reservas" class="btn btn-primary">Reservar</a>
+        <a href="#" class="btn btn-outline whatsapp-link" style="background: #121212;">WhatsApp</a>
+    </div>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
