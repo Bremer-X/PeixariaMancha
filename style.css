@@ -1,4 +1,7 @@
-/* Variaveis e Reset */
+/* =========================================
+   VARIÁVEIS GLOBAIS E RESET
+   Configurações iniciais e importação de fontes
+   ========================================= */
 :root {
     --bg-color: #f4f7f6;
     --bg-card: #ffffff;
@@ -13,7 +16,7 @@
     --font-body: 'Inter', sans-serif;
     --transition: all 0.3s ease;
     --container-width: 1200px;
-    /* <--- Aumente este valor (ex: 1400px ou 100%) para alargar o conteúdo */
+    /* <--- Aumente este valor (ex: 1400px ou 100%) para alargar o conteúdo da página */
     --header-height: 80px;
 }
 
@@ -108,6 +111,10 @@ img {
     transform: translateY(-2px);
 }
 
+/* =========================================
+   CABEÇALHO (HEADER)
+   Barra de navegação fixa no topo
+   ========================================= */
 /* Header */
 .header {
     position: fixed;
@@ -214,6 +221,10 @@ img {
     cursor: pointer;
 }
 
+/* =========================================
+   SEÇÃO HERO (BANNER INICIAL)
+   Carrossel de imagens e mensagem de boas-vindas
+   ========================================= */
 /* Hero */
 .hero {
     height: 100vh;
@@ -336,6 +347,10 @@ img {
     color: var(--primary-color);
 }
 
+/* =========================================
+   SEÇÃO DESTAQUES (DIFERENCIAIS)
+   Ícones e textos sobre os pontos fortes
+   ========================================= */
 /* Destaques */
 .highlights-grid {
     display: grid;
@@ -372,6 +387,10 @@ img {
     color: var(--text-muted);
 }
 
+/* =========================================
+   SEÇÃO CARDÁPIO (TABELA DE PREÇOS)
+   Abas e itens do menu
+   ========================================= */
 /* Menu */
 .menu-tabs {
     display: flex;
@@ -434,6 +453,10 @@ img {
     white-space: nowrap;
 }
 
+/* =========================================
+   SEÇÃO GALERIA DE FOTOS
+   Grid de imagens dos pratos e ambiente
+   ========================================= */
 /* Galeria */
 .gallery-grid {
     display: grid;
@@ -464,6 +487,10 @@ img {
     transform: scale(1.1);
 }
 
+/* =========================================
+   LIGHTBOX (VISUALIZADOR DE IMAGEM EM TELA CHEIA)
+   Janela que abre ao clicar na foto
+   ========================================= */
 /* Lightbox */
 .lightbox {
     position: fixed;
@@ -499,6 +526,10 @@ img {
     cursor: pointer;
 }
 
+/* =========================================
+   SEÇÃO DEPOIMENTOS (CARROSSEL)
+   Feedback de clientes 
+   ========================================= */
 /* Depoimentos */
 .testimonials-container {
     position: relative;
@@ -552,6 +583,10 @@ img {
     background-color: var(--primary-color);
 }
 
+/* =========================================
+   SEÇÃO LOCALIZAÇÃO E CONTATO
+   Mapa e informações de endereço
+   ========================================= */
 /* Localização */
 .location-content {
     display: grid;
@@ -588,6 +623,10 @@ img {
     width: 25px;
 }
 
+/* =========================================
+   SEÇÃO FORMULÁRIO DE RESERVAS
+   Campos para solicitação de reserva
+   ========================================= */
 /* Reservas */
 .reservation-form {
     max-width: 800px;
@@ -636,6 +675,10 @@ img {
     font-size: 0.9rem;
 }
 
+/* =========================================
+   RODAPÉ (FOOTER)
+   Informações finais, logo e redes sociais
+   ========================================= */
 /* Footer */
 .footer {
     background-color: #0a0a0a;
@@ -686,6 +729,10 @@ img {
     font-size: 0.85rem;
 }
 
+/* =========================================
+   UTILITÁRIOS E ANIMAÇÕES GERAIS
+   Classes auxiliares e botões flutuantes
+   ========================================= */
 /* Utilities & Animations */
 .scroll-reveal {
     opacity: 0;
@@ -746,6 +793,10 @@ img {
     visibility: visible;
 }
 
+/* =========================================
+   BARRA DE AÇÃO FIXA (MOBILE)
+   Botões que aparecem no rodapé do celular
+   ========================================= */
 /* Mobile Sticky CTA */
 .mobile-sticky-cta {
     display: none;
@@ -777,6 +828,10 @@ img {
     }
 }
 
+/* =========================================
+   RESPONSIVIDADE (ADAPTAÇÃO PARA CELULARES/TABLETS)
+   Ajustes específicos para telas menores
+   ========================================= */
 /* Media Queries */
 @media (max-width: 768px) {
     .header-info-bar {
