@@ -24,3 +24,5 @@ jobs:
           # Se for na raiz do domínio, use /public_html/
           # Se for uma pasta específica, use /public_html/nome-da-pasta/
           server-dir: /public_html/
+          protocol: ftps
+          port: 21
