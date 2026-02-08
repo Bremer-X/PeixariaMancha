@@ -659,6 +659,37 @@ img {
     transform: none;
     letter-spacing: 1px;
     font-weight: 700;
+    display: flex;
+    /* Flexbox for alignment */
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    /* Space between text and icon */
+}
+
+/* Instagram Title Icon */
+.instagram-title-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.instagram-title-icon i {
+    font-size: 3.5rem;
+    /* Slightly larger than text */
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Standard property */
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+    /* Shadow for depth */
+}
+
+.instagram-title-icon:hover {
+    transform: scale(1.1) rotate(5deg);
 }
 
 /* Reservas */
