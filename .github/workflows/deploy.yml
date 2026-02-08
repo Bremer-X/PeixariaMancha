@@ -21,8 +21,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # Caminho no servidor onde os arquivos serão salvos.
-          # Se for na raiz do domínio, use /public_html/
-          # Se for uma pasta específica, use /public_html/nome-da-pasta/
-          server-dir: /public_html/
+          # Usando ./ para garantir que vá para a raiz do usuário FTP (geralmente public_html)
+          server-dir: ./
           protocol: ftps
           port: 21
