@@ -5,8 +5,8 @@ const RESTAURANTE = {
     HORARIOS: "Seg-Dom 11:00 - 15:30 || Delivery Seg-Dom 7:00 - 14:00",
     TELEFONE: "5591982696928", // Número formatado para API do WhatsApp
     TELEFONE_VISUAL: "(91) 98269-6928",
-    INSTAGRAM_URL: "https://instagram.com/peixariamancha",
-    FACEBOOK_URL: "https://facebook.com/peixariamancha",
+    INSTAGRAM_URL: "https://instagram.com/peixaria.mancha",
+    FACEBOOK_URL: "https://www.facebook.com/profile.php?id=61566956332807",
     GOOGLE_MAPS_URL: "https://maps.google.com/maps?q=M%C3%A9dici%20II%2C%20Rua%20Outeiro%2C%20200%20-%20Marambaia&t=&z=15&ie=UTF8&iwloc=&output=embed",
 };
 
