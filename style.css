@@ -645,19 +645,23 @@ img {
    ========================================= */
 /* Reservas Title Special Style */
 #reservas h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    /* Reduced size */
     color: var(--primary-color);
     background: linear-gradient(145deg, #ffffff, #e6e6e6);
-    padding: 20px 40px;
+    padding: 15px 40px;
     border-radius: 50px;
-    display: inline-block;
+    display: block;
+    /* Changed for centering */
+    width: fit-content;
+    /* Only take needed space */
+    margin: 0 auto 50px !important;
+    /* Center horizontally */
     box-shadow:
         5px 5px 15px rgba(0, 0, 0, 0.1),
         -5px -5px 15px rgba(255, 255, 255, 0.8);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     transform: perspective(500px) rotateX(5deg);
-    margin-bottom: 50px !important;
-    /* Override inline style */
 }
 
 /* Reservas */
