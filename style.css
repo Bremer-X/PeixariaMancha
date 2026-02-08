@@ -681,7 +681,7 @@ img {
    ========================================= */
 /* Footer */
 .footer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), url('assets/ver-o-peso.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('assets/ver-o-peso.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
